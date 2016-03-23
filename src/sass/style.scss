@@ -1,0 +1,11 @@
+@import "compass";
+@import "compass/reset";
+
+a,iframe {
+  display: block;
+}
+
+.iframe-wrapper {
+  width: 50%;
+  float: left;
+}
