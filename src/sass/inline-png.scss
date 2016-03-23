@@ -101,17 +101,16 @@ $icon4: '../img/png/ic_account_box_black_24dp.png';
 $icon3: '../img/png/ic_account_circle_black_24dp.png';
 $icon2: '../img/png/ic_add_shopping_cart_black_24dp.png';
 $icon1: '../img/png/ic_alarm_add_black_24dp.png';
-$icons: $icon1,$icon2,$icon3,$icon4,$icon5,$icon6,$icon7,$icon8,$icon9,$icon10,$icon11,$icon12,$icon13,$icon14,$icon15,$icon16,$icon17,$icon18,$icon19,$icon20,$icon21,$icon22,$icon23,$icon24,$icon25,$icon26,$icon27,$icon28,$icon29,$icon30,$icon31,$icon32,$icon33,$icon34,$icon35,$icon36,$icon37,$icon38,$icon39,$icon40,$icon41,$icon42,$icon43,$icon44,$icon45,$icon46,$icon47,$icon48,$icon49,$icon50,$icon51,$icon52,$icon53,$icon54,$icon55,$icon56,$icon57,$icon58,$icon59,$icon60,$icon61,$icon62,$icon63,$icon64,$icon65,$icon66,$icon67,$icon68,$icon69,$icon70,$icon71,$icon72,$icon73,$icon74,$icon75,$icon76,$icon77,$icon78,$icon79,$icon80,$icon81,$icon82,$icon83,$icon84,$icon85,$icon86,$icon87,$icon88,$icon89,$icon90,$icon91,$icon92,$icon93,$icon94,$icon95,$icon96,$icon97,$icon98,$icon99,$icon100;
+$icons: $icon1, $icon2, $icon3, $icon4, $icon5, $icon6, $icon7, $icon8, $icon9, $icon10, $icon11, $icon12, $icon13, $icon14, $icon15, $icon16, $icon17, $icon18, $icon19, $icon20, $icon21, $icon22, $icon23, $icon24, $icon25, $icon26, $icon27, $icon28, $icon29, $icon30, $icon31, $icon32, $icon33, $icon34, $icon35, $icon36, $icon37, $icon38, $icon39, $icon40, $icon41, $icon42, $icon43, $icon44, $icon45, $icon46, $icon47, $icon48, $icon49, $icon50, $icon51, $icon52, $icon53, $icon54, $icon55, $icon56, $icon57, $icon58, $icon59, $icon60, $icon61, $icon62, $icon63, $icon64, $icon65, $icon66, $icon67, $icon68, $icon69, $icon70, $icon71, $icon72, $icon73, $icon74, $icon75, $icon76, $icon77, $icon78, $icon79, $icon80, $icon81, $icon82, $icon83, $icon84, $icon85, $icon86, $icon87, $icon88, $icon89, $icon90, $icon91, $icon92, $icon93, $icon94, $icon95, $icon96, $icon97, $icon98, $icon99, $icon100;
 .inline-png {
   @for $i from 0 through 99 {
     &:nth-child(#{$i + 1}) {
       background: no-repeat center inline-image(#{nth($icons, ($i + 1))
     }
-  );
-    background-size: 100px;
+      );
+      background-size: 100px;
+    }
   }
-}
-
 }
 
 .inline-png {

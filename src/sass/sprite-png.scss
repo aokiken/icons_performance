@@ -1,0 +1,16 @@
+@import "compass";
+@import "compass/reset";
+
+.sprite-png {
+  @for $i from 0 through 99 {
+    &:nth-child(#{$i + 1}) {
+      //background: no-repeat center inline-image(#{nth($icons, ($i + 1))} );
+      background-size: 100px;
+    }
+  }
+}
+
+.sprite-png {
+  width: 100px;
+  height: 100px;
+}

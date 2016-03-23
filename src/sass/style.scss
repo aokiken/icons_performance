@@ -1,11 +1,17 @@
 @import "compass";
 @import "compass/reset";
 
-a,iframe {
+html, body {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+a, iframe {
   display: block;
 }
 
 .iframe-wrapper {
   width: 50%;
+  height: 25vh;
   float: left;
 }
