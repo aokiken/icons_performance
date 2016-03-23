@@ -1,0 +1,11 @@
+@import "compass";
+@import "compass/reset";
+
+.img-svg {
+  width: 100px;
+  height: 100px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}

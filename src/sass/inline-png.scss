@@ -1,75 +1,120 @@
 @import "compass";
 @import "compass/reset";
-.inline-png:nth-child(10n-1) {
-  background: no-repeat center inline-image('png/ic_3d_rotation_black_24dp.png');
-  background-size: 100px;
+
+$icon100: '../img/png/ic_alarm_black_24dp.png';
+$icon99: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon98: '../img/png/ic_accessibility_black_24dp.png';
+$icon97: '../img/png/ic_accessible_black_24dp.png';
+$icon96: '../img/png/ic_account_balance_black_24dp.png';
+$icon95: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon94: '../img/png/ic_account_box_black_24dp.png';
+$icon93: '../img/png/ic_account_circle_black_24dp.png';
+$icon92: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon91: '../img/png/ic_alarm_add_black_24dp.png';
+$icon90: '../img/png/ic_alarm_black_24dp.png';
+$icon89: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon88: '../img/png/ic_accessibility_black_24dp.png';
+$icon87: '../img/png/ic_accessible_black_24dp.png';
+$icon86: '../img/png/ic_account_balance_black_24dp.png';
+$icon85: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon84: '../img/png/ic_account_box_black_24dp.png';
+$icon83: '../img/png/ic_account_circle_black_24dp.png';
+$icon82: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon81: '../img/png/ic_alarm_add_black_24dp.png';
+$icon80: '../img/png/ic_alarm_black_24dp.png';
+$icon79: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon78: '../img/png/ic_accessibility_black_24dp.png';
+$icon77: '../img/png/ic_accessible_black_24dp.png';
+$icon76: '../img/png/ic_account_balance_black_24dp.png';
+$icon75: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon74: '../img/png/ic_account_box_black_24dp.png';
+$icon73: '../img/png/ic_account_circle_black_24dp.png';
+$icon72: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon71: '../img/png/ic_alarm_add_black_24dp.png';
+$icon70: '../img/png/ic_alarm_black_24dp.png';
+$icon69: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon68: '../img/png/ic_accessibility_black_24dp.png';
+$icon67: '../img/png/ic_accessible_black_24dp.png';
+$icon66: '../img/png/ic_account_balance_black_24dp.png';
+$icon65: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon64: '../img/png/ic_account_box_black_24dp.png';
+$icon63: '../img/png/ic_account_circle_black_24dp.png';
+$icon62: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon61: '../img/png/ic_alarm_add_black_24dp.png';
+$icon60: '../img/png/ic_alarm_black_24dp.png';
+$icon59: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon58: '../img/png/ic_accessibility_black_24dp.png';
+$icon57: '../img/png/ic_accessible_black_24dp.png';
+$icon56: '../img/png/ic_account_balance_black_24dp.png';
+$icon55: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon54: '../img/png/ic_account_box_black_24dp.png';
+$icon53: '../img/png/ic_account_circle_black_24dp.png';
+$icon52: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon51: '../img/png/ic_alarm_add_black_24dp.png';
+$icon50: '../img/png/ic_alarm_black_24dp.png';
+$icon49: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon48: '../img/png/ic_accessibility_black_24dp.png';
+$icon47: '../img/png/ic_accessible_black_24dp.png';
+$icon46: '../img/png/ic_account_balance_black_24dp.png';
+$icon45: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon44: '../img/png/ic_account_box_black_24dp.png';
+$icon43: '../img/png/ic_account_circle_black_24dp.png';
+$icon42: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon41: '../img/png/ic_alarm_add_black_24dp.png';
+$icon40: '../img/png/ic_alarm_black_24dp.png';
+$icon39: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon38: '../img/png/ic_accessibility_black_24dp.png';
+$icon37: '../img/png/ic_accessible_black_24dp.png';
+$icon36: '../img/png/ic_account_balance_black_24dp.png';
+$icon35: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon34: '../img/png/ic_account_box_black_24dp.png';
+$icon33: '../img/png/ic_account_circle_black_24dp.png';
+$icon32: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon31: '../img/png/ic_alarm_add_black_24dp.png';
+$icon30: '../img/png/ic_alarm_black_24dp.png';
+$icon29: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon28: '../img/png/ic_accessibility_black_24dp.png';
+$icon27: '../img/png/ic_accessible_black_24dp.png';
+$icon26: '../img/png/ic_account_balance_black_24dp.png';
+$icon25: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon24: '../img/png/ic_account_box_black_24dp.png';
+$icon23: '../img/png/ic_account_circle_black_24dp.png';
+$icon22: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon21: '../img/png/ic_alarm_add_black_24dp.png';
+$icon20: '../img/png/ic_alarm_black_24dp.png';
+$icon19: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon18: '../img/png/ic_accessibility_black_24dp.png';
+$icon17: '../img/png/ic_accessible_black_24dp.png';
+$icon16: '../img/png/ic_account_balance_black_24dp.png';
+$icon15: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon14: '../img/png/ic_account_box_black_24dp.png';
+$icon13: '../img/png/ic_account_circle_black_24dp.png';
+$icon12: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon11: '../img/png/ic_alarm_add_black_24dp.png';
+$icon10: '../img/png/ic_alarm_black_24dp.png';
+$icon9: '../img/png/ic_3d_rotation_black_24dp.png';
+$icon8: '../img/png/ic_accessibility_black_24dp.png';
+$icon7: '../img/png/ic_accessible_black_24dp.png';
+$icon6: '../img/png/ic_account_balance_black_24dp.png';
+$icon5: '../img/png/ic_account_balance_wallet_black_24dp.png';
+$icon4: '../img/png/ic_account_box_black_24dp.png';
+$icon3: '../img/png/ic_account_circle_black_24dp.png';
+$icon2: '../img/png/ic_add_shopping_cart_black_24dp.png';
+$icon1: '../img/png/ic_alarm_add_black_24dp.png';
+$icons: $icon1,$icon2,$icon3,$icon4,$icon5,$icon6,$icon7,$icon8,$icon9,$icon10,$icon11,$icon12,$icon13,$icon14,$icon15,$icon16,$icon17,$icon18,$icon19,$icon20,$icon21,$icon22,$icon23,$icon24,$icon25,$icon26,$icon27,$icon28,$icon29,$icon30,$icon31,$icon32,$icon33,$icon34,$icon35,$icon36,$icon37,$icon38,$icon39,$icon40,$icon41,$icon42,$icon43,$icon44,$icon45,$icon46,$icon47,$icon48,$icon49,$icon50,$icon51,$icon52,$icon53,$icon54,$icon55,$icon56,$icon57,$icon58,$icon59,$icon60,$icon61,$icon62,$icon63,$icon64,$icon65,$icon66,$icon67,$icon68,$icon69,$icon70,$icon71,$icon72,$icon73,$icon74,$icon75,$icon76,$icon77,$icon78,$icon79,$icon80,$icon81,$icon82,$icon83,$icon84,$icon85,$icon86,$icon87,$icon88,$icon89,$icon90,$icon91,$icon92,$icon93,$icon94,$icon95,$icon96,$icon97,$icon98,$icon99,$icon100;
+.inline-png {
+  @for $i from 0 through 99 {
+    &:nth-child(#{$i + 1}) {
+      background: no-repeat center inline-image(#{nth($icons, ($i + 1))
+    }
+  );
+    background-size: 100px;
+  }
 }
 
-.inline-png:nth-child(10n-2) {
-  background: no-repeat center inline-image('png/ic_accessibility_black_24dp.png');
-  background-size: 100px;
-}
-
-.inline-png:nth-child(10n-3) {
-  background: no-repeat center inline-image('png/ic_accessible_black_24dp.png');
-  background-size: 100px;
-}
-
-.inline-png:nth-child(10n-4) {
-  background: no-repeat center inline-image('png/ic_account_balance_black_24dp.png');
-  background-size: 100px;
-}
-
-.inline-png:nth-child(10n-5) {
-  background: no-repeat center inline-image('png/ic_account_balance_wallet_black_24dp.png');
-  background-size: 100px;
-}
-
-.inline-png:nth-child(10n-6) {
-  background: no-repeat center inline-image('png/ic_account_box_black_24dp.png');
-  background-size: 100px;
-}
-
-.inline-png:nth-child(10n-7) {
-  background: no-repeat center inline-image('png/ic_account_circle_black_24dp.png');
-  background-size: 100px;
-}
-
-.inline-png:nth-child(10n-8) {
-  background: no-repeat center inline-image('png/ic_add_shopping_cart_black_24dp.png');
-  background-size: 100px;
-}
-
-.inline-png:nth-child(10n-9) {
-  background: no-repeat center inline-image('png/ic_alarm_add_black_24dp.png');
-  background-size: 100px;
-}
-
-.inline-png:nth-child(10n-10) {
-  background: no-repeat center inline-image('png/ic_alarm_black_24dp.png');
-  background-size: 100px;
 }
 
 .inline-png {
   width: 100px;
   height: 100px;
-}
-#timestamp {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 0, 0, 0.5);
-  &.hidden {
-    display: none;
-  }
-}
-#timestamp_field {
-  position: absolute;
-  bottom: 50%;
-  right: 50%;
-  width: 100%;
-  transform: translate(50%,50%);
-  text-align: center;
 }

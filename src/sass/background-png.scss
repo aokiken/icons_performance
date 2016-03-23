@@ -1,76 +1,120 @@
 @import "compass";
 @import "compass/reset";
-.background-png:nth-child(10n-1) {
-  background: no-repeat center url('../img/png/ic_3d_rotation_black_24dp.png');
-  background-size: 100px;
+
+$icon100: '../img/png/ic_alarm_black_24dp.png?100';
+$icon99: '../img/png/ic_3d_rotation_black_24dp.png?99';
+$icon98: '../img/png/ic_accessibility_black_24dp.png?98';
+$icon97: '../img/png/ic_accessible_black_24dp.png?97';
+$icon96: '../img/png/ic_account_balance_black_24dp.png?96';
+$icon95: '../img/png/ic_account_balance_wallet_black_24dp.png?95';
+$icon94: '../img/png/ic_account_box_black_24dp.png?94';
+$icon93: '../img/png/ic_account_circle_black_24dp.png?93';
+$icon92: '../img/png/ic_add_shopping_cart_black_24dp.png?92';
+$icon91: '../img/png/ic_alarm_add_black_24dp.png?91';
+$icon90: '../img/png/ic_alarm_black_24dp.png?90';
+$icon89: '../img/png/ic_3d_rotation_black_24dp.png?89';
+$icon88: '../img/png/ic_accessibility_black_24dp.png?88';
+$icon87: '../img/png/ic_accessible_black_24dp.png?87';
+$icon86: '../img/png/ic_account_balance_black_24dp.png?86';
+$icon85: '../img/png/ic_account_balance_wallet_black_24dp.png?85';
+$icon84: '../img/png/ic_account_box_black_24dp.png?84';
+$icon83: '../img/png/ic_account_circle_black_24dp.png?83';
+$icon82: '../img/png/ic_add_shopping_cart_black_24dp.png?82';
+$icon81: '../img/png/ic_alarm_add_black_24dp.png?81';
+$icon80: '../img/png/ic_alarm_black_24dp.png?80';
+$icon79: '../img/png/ic_3d_rotation_black_24dp.png?79';
+$icon78: '../img/png/ic_accessibility_black_24dp.png?78';
+$icon77: '../img/png/ic_accessible_black_24dp.png?77';
+$icon76: '../img/png/ic_account_balance_black_24dp.png?76';
+$icon75: '../img/png/ic_account_balance_wallet_black_24dp.png?75';
+$icon74: '../img/png/ic_account_box_black_24dp.png?74';
+$icon73: '../img/png/ic_account_circle_black_24dp.png?73';
+$icon72: '../img/png/ic_add_shopping_cart_black_24dp.png?72';
+$icon71: '../img/png/ic_alarm_add_black_24dp.png?71';
+$icon70: '../img/png/ic_alarm_black_24dp.png?70';
+$icon69: '../img/png/ic_3d_rotation_black_24dp.png?69';
+$icon68: '../img/png/ic_accessibility_black_24dp.png?68';
+$icon67: '../img/png/ic_accessible_black_24dp.png?67';
+$icon66: '../img/png/ic_account_balance_black_24dp.png?66';
+$icon65: '../img/png/ic_account_balance_wallet_black_24dp.png?65';
+$icon64: '../img/png/ic_account_box_black_24dp.png?64';
+$icon63: '../img/png/ic_account_circle_black_24dp.png?63';
+$icon62: '../img/png/ic_add_shopping_cart_black_24dp.png?62';
+$icon61: '../img/png/ic_alarm_add_black_24dp.png?61';
+$icon60: '../img/png/ic_alarm_black_24dp.png?60';
+$icon59: '../img/png/ic_3d_rotation_black_24dp.png?59';
+$icon58: '../img/png/ic_accessibility_black_24dp.png?58';
+$icon57: '../img/png/ic_accessible_black_24dp.png?57';
+$icon56: '../img/png/ic_account_balance_black_24dp.png?56';
+$icon55: '../img/png/ic_account_balance_wallet_black_24dp.png?55';
+$icon54: '../img/png/ic_account_box_black_24dp.png?54';
+$icon53: '../img/png/ic_account_circle_black_24dp.png?53';
+$icon52: '../img/png/ic_add_shopping_cart_black_24dp.png?52';
+$icon51: '../img/png/ic_alarm_add_black_24dp.png?51';
+$icon50: '../img/png/ic_alarm_black_24dp.png?50';
+$icon49: '../img/png/ic_3d_rotation_black_24dp.png?49';
+$icon48: '../img/png/ic_accessibility_black_24dp.png?48';
+$icon47: '../img/png/ic_accessible_black_24dp.png?47';
+$icon46: '../img/png/ic_account_balance_black_24dp.png?46';
+$icon45: '../img/png/ic_account_balance_wallet_black_24dp.png?45';
+$icon44: '../img/png/ic_account_box_black_24dp.png?44';
+$icon43: '../img/png/ic_account_circle_black_24dp.png?43';
+$icon42: '../img/png/ic_add_shopping_cart_black_24dp.png?42';
+$icon41: '../img/png/ic_alarm_add_black_24dp.png?41';
+$icon40: '../img/png/ic_alarm_black_24dp.png?40';
+$icon39: '../img/png/ic_3d_rotation_black_24dp.png?39';
+$icon38: '../img/png/ic_accessibility_black_24dp.png?38';
+$icon37: '../img/png/ic_accessible_black_24dp.png?37';
+$icon36: '../img/png/ic_account_balance_black_24dp.png?36';
+$icon35: '../img/png/ic_account_balance_wallet_black_24dp.png?35';
+$icon34: '../img/png/ic_account_box_black_24dp.png?34';
+$icon33: '../img/png/ic_account_circle_black_24dp.png?33';
+$icon32: '../img/png/ic_add_shopping_cart_black_24dp.png?32';
+$icon31: '../img/png/ic_alarm_add_black_24dp.png?31';
+$icon30: '../img/png/ic_alarm_black_24dp.png?30';
+$icon29: '../img/png/ic_3d_rotation_black_24dp.png?29';
+$icon28: '../img/png/ic_accessibility_black_24dp.png?28';
+$icon27: '../img/png/ic_accessible_black_24dp.png?27';
+$icon26: '../img/png/ic_account_balance_black_24dp.png?26';
+$icon25: '../img/png/ic_account_balance_wallet_black_24dp.png?25';
+$icon24: '../img/png/ic_account_box_black_24dp.png?24';
+$icon23: '../img/png/ic_account_circle_black_24dp.png?23';
+$icon22: '../img/png/ic_add_shopping_cart_black_24dp.png?22';
+$icon21: '../img/png/ic_alarm_add_black_24dp.png?21';
+$icon20: '../img/png/ic_alarm_black_24dp.png?20';
+$icon19: '../img/png/ic_3d_rotation_black_24dp.png?19';
+$icon18: '../img/png/ic_accessibility_black_24dp.png?18';
+$icon17: '../img/png/ic_accessible_black_24dp.png?17';
+$icon16: '../img/png/ic_account_balance_black_24dp.png?16';
+$icon15: '../img/png/ic_account_balance_wallet_black_24dp.png?15';
+$icon14: '../img/png/ic_account_box_black_24dp.png?14';
+$icon13: '../img/png/ic_account_circle_black_24dp.png?13';
+$icon12: '../img/png/ic_add_shopping_cart_black_24dp.png?12';
+$icon11: '../img/png/ic_alarm_add_black_24dp.png?11';
+$icon10: '../img/png/ic_alarm_black_24dp.png?10';
+$icon9: '../img/png/ic_3d_rotation_black_24dp.png?9';
+$icon8: '../img/png/ic_accessibility_black_24dp.png?8';
+$icon7: '../img/png/ic_accessible_black_24dp.png?7';
+$icon6: '../img/png/ic_account_balance_black_24dp.png?6';
+$icon5: '../img/png/ic_account_balance_wallet_black_24dp.png?5';
+$icon4: '../img/png/ic_account_box_black_24dp.png?4';
+$icon3: '../img/png/ic_account_circle_black_24dp.png?3';
+$icon2: '../img/png/ic_add_shopping_cart_black_24dp.png?2';
+$icon1: '../img/png/ic_alarm_add_black_24dp.png?1';
+$icons: $icon1,$icon2,$icon3,$icon4,$icon5,$icon6,$icon7,$icon8,$icon9,$icon10,$icon11,$icon12,$icon13,$icon14,$icon15,$icon16,$icon17,$icon18,$icon19,$icon20,$icon21,$icon22,$icon23,$icon24,$icon25,$icon26,$icon27,$icon28,$icon29,$icon30,$icon31,$icon32,$icon33,$icon34,$icon35,$icon36,$icon37,$icon38,$icon39,$icon40,$icon41,$icon42,$icon43,$icon44,$icon45,$icon46,$icon47,$icon48,$icon49,$icon50,$icon51,$icon52,$icon53,$icon54,$icon55,$icon56,$icon57,$icon58,$icon59,$icon60,$icon61,$icon62,$icon63,$icon64,$icon65,$icon66,$icon67,$icon68,$icon69,$icon70,$icon71,$icon72,$icon73,$icon74,$icon75,$icon76,$icon77,$icon78,$icon79,$icon80,$icon81,$icon82,$icon83,$icon84,$icon85,$icon86,$icon87,$icon88,$icon89,$icon90,$icon91,$icon92,$icon93,$icon94,$icon95,$icon96,$icon97,$icon98,$icon99,$icon100;
+.background-png {
+  @for $i from 0 through 99 {
+    &:nth-child(#{$i + 1}) {
+      background: no-repeat center url(#{nth($icons, ($i + 1))
+    }
+  );
+    background-size: 100px;
+  }
 }
 
-.background-png:nth-child(10n-2) {
-  background: no-repeat center url('../img/png/ic_accessibility_black_24dp.png');
-  background-size: 100px;
-}
-
-.background-png:nth-child(10n-3) {
-  background: no-repeat center url('../img/png/ic_accessible_black_24dp.png');
-  background-size: 100px;
-}
-
-.background-png:nth-child(10n-4) {
-  background: no-repeat center url('../img/png/ic_account_balance_black_24dp.png');
-  background-size: 100px;
-}
-
-.background-png:nth-child(10n-5) {
-  background: no-repeat center url('../img/png/ic_account_balance_wallet_black_24dp.png');
-  background-size: 100px;
-}
-
-.background-png:nth-child(10n-6) {
-  background: no-repeat center url('../img/png/ic_account_box_black_24dp.png');
-  background-size: 100px;
-}
-
-.background-png:nth-child(10n-7) {
-  background: no-repeat center url('../img/png/ic_account_circle_black_24dp.png');
-  background-size: 100px;
-}
-
-.background-png:nth-child(10n-8) {
-  background: no-repeat center url('../img/png/ic_add_shopping_cart_black_24dp.png');
-  background-size: 100px;
-}
-
-.background-png:nth-child(10n-9) {
-  background: no-repeat center url('../img/png/ic_alarm_add_black_24dp.png');
-  background-size: 100px;
-}
-
-.background-png:nth-child(10n-10) {
-  background: no-repeat center url('../img/png/ic_alarm_black_24dp.png');
-  background-size: 100px;
 }
 
 .background-png {
   width: 100px;
   height: 100px;
-}
-
-#timestamp {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 0, 0, 0.5);
-  &.hidden {
-    display: none;
-  }
-}
-#timestamp_field {
-  position: absolute;
-  bottom: 50%;
-  right: 50%;
-  width: 100%;
-  transform: translate(50%,50%);
-  text-align: center;
 }
